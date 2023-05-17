@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2023-05-17T19:12:31.507239",
+    "startedAt": "2023-05-17T19:12:30.062368",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Auto_Recognition2/src/auto_aptikimas_model_and_training.ipynb",
+    "root": "C:/Users/jolged/PycharmProjects/Auto_Recognition2",
+    "git": {
+        "remote": "git@github.com:Jolita-byte/Auto_Recognition2.git",
+        "commit": "d53a44bb626b52e45bc34fc3cb8d7c7eb7e0eaa5"
+    },
+    "email": "jolita.gedminaite1@gmail.com",
+    "host": "NB-JOLIGEDM02",
+    "username": "jolged",
+    "executable": "C:\\Users\\jolged\\PycharmProjects\\JupiterNB\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1609.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1609.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "total": 465.1523971557617,
+        "used": 298.26061630249023
+    },
+    "memory": {
+        "total": 7.6410980224609375
+    }
+}
