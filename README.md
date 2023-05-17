@@ -13,8 +13,25 @@ Prepare virtual environment:
 4. Activate virtual environment. Run command: 'virtual_env\Scripts\activate'
 5. Install libraries. Run command: pip install -r C:\Users\jolged\PycharmProjects\Auto_Recognition\requirements.txt
 
-catalogs:
-data - data catalogs
-    collection_latest - catalog created after runnig function, which collects lates sample photo from each camera
-    v1.1.1 - data collected from camera with id of 364. It has separated collections of data for training ad for testing. Catalog 
-ambigous has ambigous photo
+Catalogs:
+- **data** - data catalogs:
+  - **collection_latest** - catalog created after running function, which collects latest sample photo from each camera 
+  - **v1.1.1** - data collected from camera with id of 364. It has separated collections of data for training and for testing. 
+    - **ambiguous** has ambiguous photos, which was not included neither to training nor testings. 
+    - **test** - test data set
+      - **0** catalog has photos with no car in it
+      - **1** catalog has photos with cars in it
+    - **train** - train data set
+      - **0** catalog has photos with no car in it
+      - **1** catalog has photos with cars in it
+  -**info.txt** - file with some info about data set
+- **models** - catalog with models and trheir output
+  - **model_v1.1.0_tryx** - Xth model catalog
+    - **model_v1.1.0_tryx.hdf5** - trained model file
+    - **outputs** - model output files and pictures
+- **src** - script file catalog
+  - **auto_aptikimas_augmentations.ipynb** - script for data augmentations
+  - **auto_aptikimas_data_collecting.ipynb** - script for data collecting
+  - **auto_aptikimas_model_and_training.ipynb** - script for custom model and its training with run logging to Wandb
+  - **auto_aptikimas_Presentation.ipynb** - main project script with visualisations and work process.
+
